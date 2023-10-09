@@ -1,4 +1,5 @@
 # Company-Landing-Page
+#technohacksedutechofficial
 I've successfully wrapped up my initial internship task at TechnoHacksEduTechOfficial. 
 I designed a dynamic company landing page using a blend of HTML, CSS, and JavaScript.
 A standout feature of this project is its responsiveness. I meticulously crafted it to seamlessly adapt to smaller devices and larger screens, 
