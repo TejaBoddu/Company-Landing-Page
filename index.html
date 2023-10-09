@@ -1,0 +1,407 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Responsive Landing Page</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"/>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Font+Name">
+</head>
+<body>
+    <!-- -----Header----- -->
+    <header class="header" data-header>
+        <div class="container">
+
+            <div class="overlay" data-overlay></div>
+
+            <a href="" class="logo">
+                <img src="http://127.0.0.1:5500/Landing-Page/Assets/Logo-image3.png" alt="">
+            </a>
+            <button class="menu-open-btn" data-men-open-btn>
+                <i class="fa-solid fa-bars" name="menu-outline"></i>
+            </button>
+
+            <nav class="navbar" data-navbar>
+                <button class="menu-close-btn" data-menu-close-btn>
+                    <i class="fa-solid fa-xmark"></i>
+                </button>
+
+                <a href="" class="logo">
+                    <img src="http://127.0.0.1:5500/Landing-Page/Assets/Logo-image3.png" alt="">
+                </a>
+
+                <ul class="navbar-list">
+                    <li>
+                        <a href="#Home" class="navbar-link">Home</a> 
+                    </li>
+                    <li>
+                        <a href="#About" class="navbar-link">About</a>
+                    </li>
+                    <li>
+                        <a href="#Services" class="navbar-link">Services</a>
+                    </li>
+                    <li>
+                        <a href="#blog" class="navbar-link">Blogs</a> 
+                    </li>
+                    <li>
+                        <a href="#Contact" class="navbar-link">Contact</a> 
+                    </li>
+                </ul>
+
+                <button class="btn btn-secondary">Sign Up</button>
+                <button class="btn btn-secondary">Sign In</button>
+            </nav>
+        </div>
+    </header>
+
+    <!-- -----main------ -->
+    <main>
+        <article>
+            <!-- Hero -->
+            <section class="hero" id="Home">
+                <div class="container"> 
+                    <figure class="hero-banner">
+                        <img src="http://127.0.0.1:5500/Landing-Page/Home-images/Home-Image2.jpg" alt="">
+                    </figure>
+                    
+                    <div class="hero-content">
+                        <h1 class="h1 hero-content">
+                            Welcome to LOGOS
+                        </h1>
+                        <h2 class="h2">
+                            Do You want to start you'r career in IT, then here we are
+                        </h2>
+                        <p class="section-text">
+                            LOGOS, a leading IT company, delivers innovative solutions for businesses and individuals, propelling them to excel in today's dynamic tech environment.
+                        </p>
+
+                        <button class="btn btn-primary">Discover More..</button>
+                    </div>
+                </div>
+            </section>
+
+
+
+            <!-- ------About----- -->
+            <section class="about" id="About">
+               <div class="container">
+
+                <figure class="about-banner">
+                    <img src="http://127.0.0.1:5500/Landing-Page/About-Images/About-Image1.jpg" alt="About Image" class="about-img">
+
+                </figure>
+
+                <div class="about-content">
+                    <h1 class="whyChooseUs">Why Choose Us ?</h1>
+                    <h2 class="h2 about-title">
+                        We help to Create Possibility & Success in Your Career!
+                    </h2>
+                    <p class="section-text">
+                        LOGOS Tech Solutions is a leading IT company at the forefront of innovation. With a passion for cutting-edge technology, 
+                        we offer tailored solutions in software development, cybersecurity, and IT consulting.
+                        Our dedicated team strives to empower businesses through digital transformation and deliver excellence in every project.
+                    </p>
+                    <button class="btn btn-primary">
+                        Get Started Today
+                    </button>
+
+                </div>
+               </div>
+            </section>
+
+            <!-- -------Services------- -->
+
+            <section class="services-departements" id="Services">
+                <div class="container">
+                    <h2 class="h2 departments-title">Our Services</h2>
+
+                    <ul class="departments-list">
+
+
+                        <!-- department one -->
+                        <li>
+                            <div class="departments-card">
+                                <a href="#" class="card-banner">
+                                    <figure>
+                                        <img src="http://127.0.0.1:5500/Landing-Page/Services%20Images/Services-image1.jpg" alt="">
+                                    </figure>
+                                </a>
+
+                                <a href="#">
+                                    <h3 class="h3 card-title">Artificial Intelligence</h3>
+                                </a>
+
+                                <p class="card-text">
+                                    Assertively parallel task synergistic deliverable after high-quality.
+                                </p>
+
+                                <a href="#" class="card-link">
+                                    <span>Learn More</span>
+                                    <i class="fa fa-arrow-right"></i>
+                                </a>
+                            </div>
+                        </li>
+
+
+                        <!-- department two -->
+                        <li>
+                            <div class="departments-card">
+                                <a href="#" class="card-banner">
+                                    <figure>
+                                        <img src="http://127.0.0.1:5500/Landing-Page/Services%20Images/Services-image2.jpg" alt="">
+                                    </figure>
+                                </a>
+
+                                <a href="#">
+                                    <h3 class="h3 card-title">Web development</h3>
+                                </a>
+
+                                <p class="card-text">
+                                    Assertively parallel task synergistic deliverable after high-quality.
+                                </p>
+
+                                <a href="#" class="card-link">
+                                    <span>Learn More</span>
+                                    <i class="fa fa-arrow-right"></i>
+                                </a>
+                            </div>
+                        </li>
+
+                        <!-- department three -->
+
+                        <li>
+                            <div class="departments-card">
+                                <a href="#" class="card-banner">
+                                    <figure>
+                                        <img src="http://127.0.0.1:5500/Landing-Page/Services%20Images/Services-image3.jpg" alt="">
+                                    </figure>
+                                </a>
+
+                                <a href="#">
+                                    <h3 class="h3 card-title">App Development</h3>
+                                </a>
+
+                                <p class="card-text">
+                                    Assertively parallel task synergistic deliverable after high-quality.
+                                </p>
+
+                                <a href="#" class="card-link">
+                                    <span>Learn More</span>
+                                    <i class="fa fa-arrow-right"></i>
+                                </a>
+                            </div>
+                        </li>
+
+                    </ul>
+
+                    <button class="btn btn-primary service-btn">View All Services..</button>
+                </div>
+            </section>
+
+
+            <!-- ----Blogs section----- -->
+            <section id="blog" id="Blogs">
+
+
+                <!-- ----Heading----- -->
+                <div class="blog-heading">
+                    <strong>Recent Blogs</strong>
+                    <h3>Our Blogs</h3>
+                </div>
+
+                <!-- Blog -container -->
+                <div class="blog-box-container">
+                    <!-- blog 1 -->
+
+                    <div class="blog-box">
+                        <div class="blog-box-img">
+                            <img src="http://127.0.0.1:5500/Landing-Page/Services%20Images/Blog%20image11.png" alt="Security tips">
+                            <a href="#" class="blog-img-link">
+                                <i class="fa fa-up-right-from-square"></i>
+                            </a>
+                        </div>
+
+                        <div class="blog-box-text">
+                            <strong>Artificial Intelligence</strong>
+                            <a href="">Artificial Intelligence, what it is and How It Is used.</a>
+                            <p>Artificial Intelligence (AI) refers to the simulation of human intelligence in computers, enabling them to perform tasks such as learning, problem-solving, and decision-making. AI technologies use algorithms and data to mimic human cognitive functions and improve automation, analysis, and interaction in various applications.</p>
+
+                            <div class="blog-author">
+                                <div class="blog-author-img">
+                                    <img src="http://127.0.0.1:5500/Landing-Page/Services%20Images/Blog%20image1.png" alt="Security tips">
+                                </div>
+                                <div class="blog-author-text">
+                                    <strong>Teja</strong>
+                                    <strong>22 sept 2023</strong>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Blog 2 -->
+
+                    <div class="blog-box">
+                        <div class="blog-box-img">
+                            <img src="http://127.0.0.1:5500/Landing-Page/Services%20Images/Blog%20image12.png" alt="Cyber Security">
+                            <a href="#" class="blog-img-link">
+                                <i class="fa fa-up-right-from-square"></i>
+                            </a>
+                        </div>
+
+                        <div class="blog-box-text">
+                            <strong>Cyber Security</strong>
+                            <a href="">Cyber Security, what it is and How It Is used.</a>
+                            <p>Cybersecurity is the practice of protecting computer systems, networks, and data from theft, damage, or unauthorized access. It encompasses a range of technologies, processes, and practices to safeguard digital assets, ensuring confidentiality, integrity, and availability in the face of cyber threats and attacks.</p>
+
+                            <div class="blog-author">
+                                <div class="blog-author-img">
+                                    <img src="http://127.0.0.1:5500/Landing-Page/Services%20Images/Blog%20image2.png" alt="Cyber Security">
+                                </div>
+                                <div class="blog-author-text">
+                                    <strong>Ram</strong>
+                                    <strong>21 sept 2023</strong>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+
+                    <!-- Blog 3 -->
+
+                    <div class="blog-box">
+                        <div class="blog-box-img">
+                            <img src="http://127.0.0.1:5500/Landing-Page/Services%20Images/Blig%20image3.png" alt="IoT">
+                            <a href="#" class="blog-img-link">
+                                <i class="fa fa-up-right-from-square"></i>
+                            </a>
+                        </div>
+
+                        <div class="blog-box-text">
+                            <strong>Internet Of Things</strong>
+                            <a href="#">Internet Of Things, what it is and How It Is used.</a>
+                            <p>The Internet of Things (IoT) is a network of interconnected physical devices and objects, such as sensors and appliances, that communicate and share data over the internet. It enables remote monitoring, control, and automation of various systems, enhancing efficiency and convenience in both consumer and industrial applications.</p>
+
+                            <div class="blog-author">
+                                <div class="blog-author-img">
+                                    <img src="http://127.0.0.1:5500/Landing-Page/Services%20Images/Blig%20image3.png" alt="IoT">
+                                </div>
+                                <div class="blog-author-text">
+                                    <strong>Deepak</strong>
+                                    <strong>23 sept 2023</strong>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+
+                <!--  -->
+
+            </section>
+
+
+
+            <!-- Contact us -->
+            <section class="contactus" id="Contact">
+
+                <div class="content">
+                    <h2>Contact Us</h2>
+                    <p>If  You Have Any Queries Please feel free to contact us</p>
+                </div>
+                <div class="contact-container">
+                    <div class="contactInfo">
+                        <div class="box">
+                            <div class="icon"><i class="fa-brands fa-linkedin"></i></div>
+                            <div class="text">
+                                <h3>LinkedIn</h3>
+                                <p>https://linkedIn.com</p>
+                            </div>
+                        </div>
+
+                        <div class="box">
+                            <div class="icon"><i class="fa-solid fa-envelope"></i></div>
+                            <div class="text">
+                                <h3>Email</h3>
+                                <p>logos@gmail.com</p>
+                            </div>
+                        </div>
+
+                        <div class="box">
+                            <div class="icon"><i class="fa-solid fa-phone"></i></div>
+                            <div class="text">
+                                <h3>Phone</h3>
+                                <p>+00 000-000-00</p>
+                            </div>
+                        </div> 
+                    </div>
+                </div>
+                
+                <div class="contactform-container">
+                    <form action="">
+                        <h3 class="contactform-h2"> 
+                            <input type="text" id="name" placeholder="Enter Full Name" required>
+                            <input type="email" id="email" placeholder="Enter Email" required>
+                            <input type="number" id="phone" placeholder="Phone Number" required>
+    
+                            <textarea name="" id="message" placeholder="Type Your Message" rows="30" cols="30"></textarea>
+                            <button type="submit" value="Send">Send  <i class="fa fa-up-right-from-square"></i></button>
+                        </h3>
+                    </form>
+                </div>
+            </section>
+
+            <!-- footer section -->
+            <footer id="footer">
+                <div class="footer-col">
+                    <h4>Products</h4>
+                    <ul class="">
+                        <li><a href="#">Teams</a></li>
+                        <li><a href="#">Advertising</a></li>
+                        <li><a href="#">Talent</a></li>
+                    </ul>
+                </div>
+
+                <div class="footer-col">
+                    <h4>Network</h4>
+                    <ul>
+                        <li><a href="#">Technology</a></li>
+                        <li><a href="#">Science</a></li>
+                        <li><a href="#">Business</a></li>
+                        <li><a href="#">Professional</a></li>
+                        <li><a href="#">API</a></li>
+                    </ul>
+                </div>
+
+                <div class="footer-col">
+                    <h4>Company</h4>
+                    <ul>
+                        <li><a href="#">About</a></li>
+                        <li><a href="#">Legal</a></li>
+                        <li><a href="#">Contact us</a></li>
+                    </ul>
+                </div>
+
+                <div class="footer-col">
+                    <h4>Follow Us</h4>
+                    <div class="social-links">
+                        <a href=""><i class="fa-brands fa-linkedin"></i></a>
+                        <a href=""><i class="fa-brands fa-twitter"></i></a>
+                        <a href=""><i class="fa-brands fa-instagram"></i></a>
+                        <a href=""><i class="fa-brands fa-youtube"></i></a>
+                    </div>
+                </div>
+                
+            </footer>
+
+            <div class="copyrightssymbol">
+                <a href="#" class="copyright"> Copy rights &#169; 2023 Designed by<span>Teja Boddu</span></a>
+            </div>
+        </article>
+    </main>
+
+
+    <script src="./main.js"></script>
+    
+</body>
+</html>        
